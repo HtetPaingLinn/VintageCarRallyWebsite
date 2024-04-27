@@ -1,0 +1,657 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+section::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"]{
+	float: left;
+	padding: 15px;
+	width: 100%;
+}
+
+header{
+	height: 800%;
+	padding: 0px;
+	background-color: #1f2a44;
+	margin-top: -30px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+#MainHeading{
+	color: #ffffff; 
+	text-align: center; 
+	font-family: 'Bebas Neue', cursive; 
+	font-size: 80px;
+}
+
+#SubMainHeading{
+	color: #ffffff; 
+	text-align: center; 
+	font-family: 'Bebas Neue', cursive; 
+	font-size: 40px;
+}
+
+.menu{
+	margin-bottom: 20px;
+}
+
+nav.menu ul{
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+}
+
+nav.menu li{
+	float: left;
+	padding: 8px;
+	width: fit-content;
+	display: inline;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	background-color: #86a6df;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 8px 16px;
+    display: inline;
+	font-weight: bold;
+}
+
+nav.menu li a:focus{
+	color: blueviolet;
+}
+
+nav.menu li:hover{
+	background-color: rgb(0, 255, 242);
+}
+
+#Search{
+	margin-top: 8px; 
+	float: right;
+}
+
+#SearchLabel{
+	text-align: right; 
+	margin-top: -10px; 
+	display: inline; 
+	color: #86a6df;
+}
+
+.btnsearch{
+	font-weight: 100;
+}
+
+
+footer{
+	background-color: #1f2a44;
+	color: white;
+	height: 50px;
+	padding: 5px;
+}
+
+#FooterP{
+	text-align: center;
+}
+
+form{
+	color: #2d6cdf;
+	font-size: 20px;
+}
+
+/* -------------Home---------------- */
+#HomeSec1{
+	height: 100%; 
+	width: 100%;
+}
+
+#HomeSec1 p{
+	line-height: 25px; 
+	text-align: justify;
+}
+
+#HomeSec1  img{
+	max-width: 100%;
+	max-height: 100%;
+	height: 100%;
+	margin-top: 50px; 
+	border: 2px solid #4b4949; 
+	padding: 0;
+}
+
+#HomeSec2{
+	margin-top: 60px; 
+	height: 130%; 
+	width: 100%; 
+	padding-top: 70px; 
+	padding-bottom: 60px; 
+	background-color: rgb(243, 241, 237);
+}
+
+#HomeSec2 img{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0; 
+	border: 2px solid #4b4949 ;
+}
+
+#HomeSec2 p{
+	text-align: justify; 
+	line-height: 25px;
+}
+
+#HomeSec3{
+	margin-top: 60px;
+}	
+
+#HomeSec3 h1{
+	text-align: center;
+}
+
+#HomeSec3 p{
+	text-align: center; 
+	line-height: 25px;
+}
+
+#HomeSec5{
+	margin-top: 60px; 
+	height: 120%; 
+	padding-top: 20px;  
+	background-color: rgb(243, 241, 237);
+}
+
+#HomeSec5 h1{
+	text-align: center;
+} 
+
+#HomeSec5 video{
+	max-width: 100%;
+	max-height: 100%;
+	border: 2px solid #4b4949; 
+	padding: 0;
+}
+#HomeSec6{
+	background-color: #89d2f3; 
+	height: 110%; 
+	margin-bottom: 30px; 
+	margin-top: 60px;
+}	
+
+#HomeSec6 h2{
+	text-align: left; 
+	padding-left: 0; 
+	text-align: center;
+}
+
+.regbtn{
+	display: block; 
+	margin: 0 auto; 
+	padding: 10px; 
+	border: 2px solid white; 
+	border-radius: 20px; 
+	background-color: transparent;
+}
+
+.regbtn:hover{
+	color: #2d6cdf;
+}
+
+#SocialLink{
+	display: table; 
+	margin: 0 auto;
+}
+.link{
+	margin-left: 5px;
+}
+
+.link img{
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.link img:hover{
+	background-color: aqua;
+	border-radius: 20px;
+}
+
+
+/* -------------Contact Us---------------- */
+#ContactSec{
+	margin-bottom: 20px;
+}
+
+#ContactSec p{
+	margin-bottom: 60px;
+}
+
+#ContactFirstName{
+	margin-bottom: 40px; 
+	padding-bottom: 15px; 
+	font-size: 16px; 
+	width: 30%; 
+	border: none; 
+	outline: none; 
+	border-bottom: 2px solid black; 
+	margin-right: 10%;
+}
+
+#ContactSecondName{
+	margin-bottom: 40px; 
+	padding-bottom: 15px; 
+	font-size: 16px; 
+	width: 30%; 
+	border: none; 
+	outline: none; 
+	border-bottom: 2px solid black;
+}
+
+#ContactGmail{
+	margin-bottom: 40px; 
+	padding-bottom: 15px; 
+	font-size: 16px; 
+	width: 70%; 
+	border: none; 
+	outline: none; 
+	border-bottom: 2px solid black;
+}
+
+#ContactMessage{
+	margin-bottom: 20px; 
+	display: block; 
+	width: 70%; 
+	border: none; 
+	outline: none; 
+	border-bottom: 2px solid black; 
+	font-size: 16px;
+}
+
+#btnContactButton{
+	padding: 10px; 
+	background-color: black; 
+	font-size: 12px; 
+	color:white;
+}
+
+.ContactDetail{
+	background-color: yellow; 
+	margin-top: 60px;
+}
+
+.ContactPhone img{
+	max-height: 100%;
+	max-width: 100%;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.ContactPhone p{
+	text-align: center;
+}
+
+.ContactEmail img{
+	max-height: 60px;
+	max-width: 60px;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.ContactEmail p{
+	text-align: center;
+}
+
+.ContactEmail a{
+	display: inline;
+	text-decoration: none;
+}
+
+/* -------------About Us---------------- */
+#AboutUsSec h1{
+	font-size: 40px; 
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+#AboutUsSec hr{
+	background-color: blueviolet;
+}
+
+
+#AboutUsImg1, #AboutUsImg2{
+	max-height: 50%;
+	max-width: 50%;
+}
+
+#AboutUsImg3{
+	border: 2px solid black;
+	max-width: 70%;
+	max-height: 50%;
+	
+}
+
+#AboutUsSec p{
+	line-height: 25px; 
+	text-align: justify;
+	text-align-last: center;
+}
+
+#AboutUsSec video{
+	max-width: 70%;
+	max-height: 50%;
+	border: 2px solid #4b4949; 
+	padding: 0;
+	max-width: 70%;
+	max-height: 50%;
+}
+
+/* -------------Q&A---------------- */
+#QASec1{
+	margin-bottom: 50px;
+}
+
+#QASec1 h1{
+	font-size: 40px;
+}
+
+#QASec1 p{
+	line-height: 25px; 
+	text-align: justify;
+}
+
+#QASec1 img{
+	max-width: 100%;
+	max-width: 100%;
+}
+
+#QASec2 h3{
+	text-align: center;
+}
+
+#QASec2 p{
+	text-align: justify;
+	text-align-last: center;
+}
+#QASec3{
+	margin-top: 50px; 
+	background-color: #89d2f3; 
+	height: 130%; 
+	margin-bottom: 20px;
+}
+
+#QForm{
+	margin-left: 70px;
+}
+
+#txtQuestion1, #txtQuestion2, #txtQuestion3{
+	width: 60%;
+}
+
+#QFormEmail{
+	width: 60%; 
+	margin-left: 37px;
+}
+
+#btnQuestionSubmit{
+	padding: 6px; 
+	border: 2px solid white; 
+	border-radius: 20px; 
+	background-color: transparent; 
+	margin-left: 35%;
+	
+}
+
+/* -------------Register---------------- */
+#RegisterSec1 h1{
+	margin-top: 50px;
+}
+
+#RegisterSec1 p{
+	line-height: 25px;
+	text-align: justify;
+}
+
+#deco{
+	text-align: right; 
+	font-size: 17px;
+}
+
+#RegisterSec2{
+	height: 120%; 
+	padding-bottom: 40px; 
+	padding-top: 40px; 
+	background-color: rgb(243, 241, 237);
+}
+
+#RegisterSec2 p{
+	text-align: center;
+}
+
+#RegisterSec2 h1{
+	text-align: center; 
+	margin-bottom: 40px;
+	font-size: 50px;
+}
+
+#RegisterSec2 img{
+	margin-top: -10px;
+}
+
+#RegImg1{
+	max-width: 30%;
+	max-height: 30%;
+}
+
+#RegImg2, #RegImg3, #RegImg4, #RegImg5{
+	max-width: 29px;
+}
+
+#RegisterSec2 #txtRegName, #txtRegEmail, #txtRegPhone, select{
+	width: 80%;
+	padding: 10px;
+	padding-top: 0;
+	border: none; 
+	outline: none; 
+	border-bottom: 2px solid black;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+#txtRegSaySth{
+	margin-left: 13px; 
+	width: 80%;
+	padding: 10px;
+	padding-top: 0;
+	border: none; 
+	outline: none; 
+	border-bottom: 2px solid black;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+#decoReg1, #decoReg2, #decoReg3, #decoReg4{
+	text-align:center; 
+	width: 20%; 
+	margin-left: 30px;
+}
+
+#decoReg5{
+	text-align:center; 
+	width: 20%; 
+	margin-left: 20px;
+}
+
+
+#RegSubmit, #RegCancel{
+	display: block; 
+	margin: 0 auto; 
+	margin-top: 60px; 
+	padding: 5px;  
+	border-radius: 10px;
+}
+
+#RegisterSec3{
+	padding-top: 30px;
+}
+
+#RegisterSec3 h1{
+	text-align: center; 
+	margin-top: 30px;
+}
+
+#RegisterSec3 input{
+	padding: 5px;  
+	border-radius: 10px;
+}
+
+#RegisterSec3 img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* -----------------Driver------------------ */
+#DriverSec1{
+	margin-bottom: 100px;
+}
+
+#DriverSec1 h1{
+	font-size: 40px;
+}
+#DriverSec1 p{
+	text-align: justify;
+}
+#DriverSec1 img{
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 40px; 
+	border: 2px solid black;
+}
+
+#DriverSec2{
+	background-color: cyan;
+	margin-bottom: 20px;
+}
+
+#DriverSec2 h1{
+	text-align: center; 
+	margin-bottom: 5px; 
+	font-size: 40px;
+}
+
+#DriverSec2 input{
+	border-radius: 10px; 
+	padding: 5px;
+	background-color: transparent; 
+	font-size: 17px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+	font-size: 10px;
+	margin-bottom: 4px;
+}
+
+.driver{
+	position: relative;
+  	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.driver img{
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+	width: 100%;
+	border-radius: 30px;
+	height: auto;
+}
+
+.driverdetail{
+	position:absolute;
+	bottom: 5%;
+	left: 20px;
+	right: 4px;
+	color: rgb(255, 255, 255);
+	width: 60%;
+	padding: 20px;
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+	font-size: 70%;
+}
+
+
+/*for mobile phones*/
+[class*="col-"]{
+	width: 100%;
+}
+
+@media only screen and (min-width: 300px){
+	/*for tablets*/
+	.col-m-1{width: 8.33%;}
+	.col-m-2{width: 16.66%;}
+	.col-m-3{width: 25%;}
+	.col-m-4{width: 33.33%;}
+	.col-m-5{width: 41.66%;}
+	.col-m-6{width: 50%;}
+	.col-m-7{width: 58.33%;}
+	.col-m-8{width: 66.66%;}
+	.col-m-9{width: 75%;}
+	.col-m-10{width: 83.33%;}
+	.col-m-11{width: 91.66%;}
+	.col-m-12{width: 100%;}
+}
+
+@media only screen and (min-width: 1000px){
+	/*for desktop*/
+	.col-1{width: 8.33%;}
+	.col-2{width: 16.66%;}
+	.col-3{width: 25%;}
+	.col-4{width: 33.33%;}
+	.col-5{width: 41.66%;}
+	.col-6{width: 50%;}
+	.col-7{width: 58.33%;}
+	.col-8{width: 66.66%;}
+	.col-9{width: 75%;}
+	.col-10{width: 83.33%;}
+	.col-11{width: 91.66%;}
+	.col-12{width: 100%;}
+}
+
+.carimg-minislide{
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.carimg-minislide img{
+	position: absolute;
+	animation: carimg-minislide 18s infinite;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	border:  2px solid #4b4949; 
+	padding: 0;
+}
+
+@keyframes carimg-minislide {25%{opacity: 1;} 40%{opacity: 0;}}
+.carimg-minislide img:nth-child(7){animation-delay:0s;}
+.carimg-minislide img:nth-child(6){animation-delay:3s;}
+.carimg-minislide img:nth-child(5){animation-delay:6s;}
+.carimg-minislide img:nth-child(4){animation-delay:9s;}
+.carimg-minislide img:nth-child(3){animation-delay:12s;}
+.carimg-minislide img:nth-child(2){animation-delay:15s;}
+.carimg-minislide img:nth-child(1){animation-delay:18s;}
